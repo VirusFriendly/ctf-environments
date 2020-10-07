@@ -1,8 +1,8 @@
 # To build
-# sudo docker build -t ctf:forensics-hdd .
+# sudo docker build -t ctf:network-recon .
 #
 # To run
-# sudo docker run -d --rm -v $PWD:/pwd -i ctf:forensics-hdd
+# sudo docker run -d --rm -v $PWD:/pwd -i ctf:network-recon
 #
 # Get [containerid]
 # sudo docker ps
@@ -17,4 +17,4 @@ ENV LC_CTYPE C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
 RUN dpkg --add-architecture i386 && \
 apt-get update && \
-apt-get install -y autopsy
+apt-get install -y nmap snmp

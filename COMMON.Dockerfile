@@ -2,7 +2,7 @@
 # sudo docker build -t ctf:[tag] .
 #
 # To run
-# sudo docker run -d --rm -v $PWD:/pwd -i ctf:forensics-hdd --name [tag]
+# sudo docker run -d --rm -v $PWD:/pwd -i [tag]
 #
 # Get [containerid]
 # sudo docker ps

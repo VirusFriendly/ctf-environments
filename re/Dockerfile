@@ -19,5 +19,4 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN dpkg --add-architecture i386 && \
 apt-get update && \
 apt-get install -y binutils build-essential git libffi-dev libssl-dev python3 python3-dev python3-pip && \
-python3 -m pip install angr
-
+python3 -m pip install angr notebook
